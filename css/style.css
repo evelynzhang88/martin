@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border: none;
+}
+
+li {
+  list-style: none;
+  margin: 0px;
+}
+
+/*for global*/
+body {
+  font-size: 12px;
+  font-family: Arial,"microsoft yahei", Helvetica, sans-serif;
+  line-height: 1.8;
+  background: #000 url(../img/bg.jpg) repeat-x;
+  color: #fff;
+}
+
+/*for header*/
+#logo {
+  width: 206px;
+  margin: 10px auto;
+}
+#logo img {
+  width: 100%;
+}
+
+.kv {
+  width: 236px;
+  margin: 0px auto;
+}
+.kv img {
+  width: 100%;
+}
+
+/*for filter block*/
+.filter-block {
+  font-size: 16px;
+}
+.filter-block .tips {
+  font-size: 13px;
+  color: #846b4c;
+  padding: 0px 16px;
+}
+.filter-block .label {
+  position: relative;
+  color: #e1c68f;
+  background: url(../img/select-bar.png) repeat-x;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 16px;
+  border-top: #59524c 1px solid;
+  border-bottom: #000 1px solid;
+}
+.filter-block .label .arrow-bottom {
+  display: inline-block;
+  width: 18px;
+  height: 11px;
+  background: url(../img/arrow.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.filter-block li {
+  padding: 0px 16px;
+  border-top: #433627 1px solid;
+  height: 40px;
+  line-height: 40px;
+}
+.filter-block .provinces,
+.filter-block .cities,
+.filter-block .zones {
+  display: none;
+}
